@@ -10,15 +10,30 @@
 	<form action="?/register" method="post" class="flex flex-col items-center space-y-2 w-full pt-4">
 		<div class="form-control w-full max-w-md">
 			<label for="name" class="label font-medium pb-1">
-				<span class="label-text">Name</span>
+				<span class="label-text">Full Name</span>
 			</label>
 			<input type="text" name="name" class="input input-bordered w-full max-w-fd" />
 		</div>
 		<div class="form-control w-full max-w-md">
-			<label for="name" class="label font-medium pb-1">
-				<span class="label-text">Name</span>
+			<label for="email" class="label font-medium pb-1">
+				<span class="label-text">Email</span>
 			</label>
-			<input type="text" name="name" class="input input-bordered w-full max-w-fd" />
+			<input type="email" name="email" class="input input-bordered w-full max-w-fd" />
+		</div>
+		<div class="form-control w-full max-w-md">
+			<label for="password" class="label font-medium pb-1">
+				<span class="label-text">Password</span>
+			</label>
+			<input type="passowrd" name="password" class="input input-bordered w-full max-w-fd" />
+		</div>
+		<div class="form-control w-full max-w-md">
+			<label for="passwordConfirm" class="label font-medium pb-1">
+				<span class="label-text">Confirm Password</span>
+			</label>
+			<input type="passowrd" name="passwordConfirm" class="input input-bordered w-full max-w-fd" />
+		</div>
+		<div class="w-full max-w-md pt-2">
+			<button type="submit" class="btn btn-primary w-full">Register</button>
 		</div>
 	</form>
 </div>
