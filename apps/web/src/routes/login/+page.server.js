@@ -1,5 +1,4 @@
-import { error } from 'console';
-import { redirect } from '@sveltejs/kit';
+import { redirect, error } from '@sveltejs/kit';
 
 export const actions = {
 	login: async ({ request, locals }) => {
