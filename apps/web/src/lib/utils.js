@@ -6,5 +6,5 @@ export const SerializeNonPOJOs = (obj) => {
 
 export const generateUsername = (name) => {
 	const id = randomBytes(2).toString('hex');
-	return `${name.slice(0.5)}${id}`;
+	return `${name.slice(0, 5)}${id}`;
 };

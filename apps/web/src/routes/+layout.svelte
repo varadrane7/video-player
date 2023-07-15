@@ -22,22 +22,23 @@
 					<!-- svelte-ignore a11y-label-has-associated-control -->
 					<label tabindex="0" class="btn btn-ghost btn-circle avatar">
 						<div class="w-10 rounded-full">
-							<img src="https://placeimg.com/80/80/people" alt="User Avatar" />
+							<img src="https://picsum.photos/100" alt="User Avatar" />
 						</div>
 					</label>
 					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 					<ul
 						tabindex="0"
 						class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-					/>
-					<li>
-						<a href="/my/settings">Settings</a>
-					</li>
-					<li>
-						<form action="/logout" method="post">
-							<button type="submit" class="w-full text-start">Logout</button>
-						</form>
-					</li>
+					>
+						<li>
+							<a href="/my/settings">Settings</a>
+						</li>
+						<li>
+							<form action="/logout" method="POST">
+								<button type="submit" class="w-full text-start">Logout</button>
+							</form>
+						</li>
+					</ul>
 				</div>
 			{/if}
 		</div>
